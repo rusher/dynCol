@@ -1,12 +1,15 @@
 package org.mariadb.dyncol.data;
 
-/**
- * Created by diego_000 on 13/12/2015.
+/*
+MariaDB Dynamic column java plugin
+Copyright (c) 2016 MariaDB.
+...
+...
  */
-public enum DynamicType {
+public enum DynamicTypee {
     NULL, INT, UINT, DOUBLE, STRING, DECIMAL, DATETIME, DATE, TIME, DYNCOL;
 
-    public static DynamicType get(int type) throws Exception {
+    public static DynamicTypee get(int type) throws Exception {
         switch (type) {
             case 0 : return NULL;
             case 1 : return INT;

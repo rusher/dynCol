@@ -2,7 +2,6 @@ package org.mariadb.dyncol;
 
 
 import org.mariadb.dyncol.blob.Blob;
-import org.mariadb.dyncol.data.DynamicType;
 import org.mariadb.dyncol.data.Record;
 
 import java.io.UnsupportedEncodingException;
