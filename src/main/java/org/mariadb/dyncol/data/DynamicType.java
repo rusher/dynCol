@@ -6,10 +6,10 @@ Copyright (c) 2016 MariaDB.
 ...
 ...
  */
-public enum DynamicTypee {
+public enum DynamicType {
     NULL, INT, UINT, DOUBLE, STRING, DECIMAL, DATETIME, DATE, TIME, DYNCOL;
 
-    public static DynamicTypee get(int type) throws Exception {
+    public static DynamicType get(int type) throws Exception {
         switch (type) {
             case 0 : return NULL;
             case 1 : return INT;

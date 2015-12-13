@@ -18,7 +18,7 @@ public class Record {
 	*/
 	public int record_type;
 	public byte[] data;
-	public DynamicTypee type;
+	public DynamicType type;
 
 
 

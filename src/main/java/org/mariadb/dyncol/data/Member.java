@@ -10,17 +10,17 @@ Copyright (c) 2016 MariaDB.
  */
 public class Member {
 
-    private final DynamicTypee type;
+    private final DynamicType type;
     private final String key;
     private final byte[] rawBytes;
 
     /**
      * Member constructor, to represent dynamic member as object.
-     * @param type one of the DynamicTypee
+     * @param type one of the DynamicType
      * @param key member key (can be a named key, or an integer string representation)
      * @param rawBytes binary value of this object.
      */
-    public Member(final DynamicTypee type, final String key, final byte[] rawBytes) {
+    public Member(final DynamicType type, final String key, final byte[] rawBytes) {
         this.type = type;
         this.key = key;
         this.rawBytes = rawBytes;
