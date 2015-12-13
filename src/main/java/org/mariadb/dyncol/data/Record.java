@@ -17,8 +17,15 @@ public class Record {
 		DYNCOL = 9
 	*/
 	public int record_type;
+	public byte[] data;
+	public DynamicType type;
+
+
+
 	public long long_value;
 	public double double_value;
 	public String str_value = "";
 	public DynCol DynCol_value;
+
+
 }
